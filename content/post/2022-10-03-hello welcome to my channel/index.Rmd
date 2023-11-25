@@ -1,0 +1,166 @@
+---
+title: "Hello, welcome to my channel!"
+author: "Hong Chaoli"
+date: "2022-10-03"
+categories: "introduction"
+tags: "introduction"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+记录东京时间凌晨一点，搭建好了网站。
+
+
+
+<!-- # R markdown 基本语法记录 -->
+
+<!-- 分割线用：--- -->
+
+<!-- 注释掉内容用：shift+cmd+C -->
+
+<!-- 无序列表：-/+/* + 空格；次级列表按Tab -->
+
+<!-- 有序列表：数字/字母 + . -->
+
+<!-- *斜体* -->
+
+<!-- 显示特殊符号用反斜杠 \ -->
+
+<!-- **加粗** -->
+
+<!-- ***粗斜体*** -->
+
+<!-- `行内代码文本` -->
+
+<!-- R语言代码块（不执行）： -->
+<!-- ```r -->
+<!-- 代码 -->
+<!-- ``` -->
+
+<!-- 下标：x~2~ -->
+
+<!-- 上标：x^2^ -->
+
+<!-- 行内公式：$f(x)=\sqrt{x}$ -->
+
+<!-- 公式块：$$f(x)=\sqrt{x}$$ -->
+
+<!-- 链接： -->
+<!-- [显示的文本](对应的网址) -->
+<!-- [Chaoli's Channel](hongchaoli.com) -->
+
+<!-- 插入图片： -->
+
+<!-- `![图片说明](图/片/路/径)`或者用R代码块 -->
+
+<!-- fig.cap为图片名称； -->
+<!-- out.width/height设置图片宽度/高度； -->
+<!-- fig.width = 6: set the width of the figure as 6 inch -->
+<!-- fig.height = 6 -->
+<!-- fig.aligh = 'center/left/right': set the figures to align center/left/right -->
+<!-- fig.show = 'hold': figures aligh horizontally -->
+<!-- ./表示图片位于项目所在文件夹； -->
+<!-- include_graphics函数中的引号内填写网址，则可以显示该网址的图片。 -->
+<!-- ```{r echo=FALSE, fig.cap="千鳥ヶ淵の桜", out.width = '50%'} -->
+<!-- knitr::include_graphics("https://visit-chiyoda.tokyo/app/upload/spot_image/4d9593ea621fe3eb23dcca93f24c4121.jpg") -->
+<!-- ``` -->
+
+<!-- 插入简单表格： -->
+
+<!-- | id (align left) | group (align center) | value (align right) | -->
+<!-- |:---             |:---:|                 ---:| -->
+<!-- |1   | saline     |  10 | -->
+<!-- |2   |  drug      |  30 | -->
+
+<!-- Table: A simple demo -->
+
+<!-- insert tables using knitr:kable: -->
+<!-- ```{r, eval = F} -->
+<!-- library(knitr) -->
+<!-- knitr::kable(head(iris)) -->
+<!-- ``` -->
+
+
+
+<!-- 引用块： -->
+<!-- 被引用的文本前加 >和空格 -->
+
+<!-- > 一期一会。--- xxx -->
+
+
+<!-- 对勾框： -->
+
+<!-- $\Box$ buy tissue papers -->
+
+<!-- $\checkmark$ buy tissue papers -->
+
+<!-- set font, size, text color, backgroup color using HTML syntax: -->
+<!-- <span style="font-family:Arial;"><span style="font-size:40px;"><span style="color:blue;"><span style="background-color:yellow;">buy tissue papers</span> -->
+
+
+<!-- underline: -->
+<!-- <p style="text-decoration:underline;">buy tissue papers</p> -->
+
+
+<!-- deletion line: -->
+<!-- <p style="text-decoration:line-through;">buy tissue papers</p> -->
+
+
+<!-- overline: -->
+<!-- <p style="text-decoration:overline;">buy tissue papers</p> -->
+
+
+<!-- align right: -->
+<!-- <p style="text-align:right;">七里香</p> -->
+
+
+<!-- insert video:<br> -->
+
+<!-- * from local: -->
+<!-- ``` -->
+<!-- <video controls> -->
+<!--   <source src="video-example.mp4" type="video/mp4"> -->
+<!-- </video> -->
+
+<!-- <span style="font-size:12px;"> 来自本地的视频。</span> -->
+<!-- ``` -->
+
+<!-- * from web:<br> -->
+<!-- <video controls> -->
+<!--   <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4"> -->
+<!-- </video> -->
+
+<!-- <span style="font-size:12px;"> *来自网络的视频，网址为：https://www.w3schools.com/html/movie.mp4 *</span> -->
+
+<!-- insert audio:<br> -->
+<!-- <audio controls> -->
+<!--   <source src="audio-example.mp3" type="audio/mp3"> -->
+<!-- </audio> -->
+
+<!-- insert attachment:<br> -->
+<!-- <a href="data.csv" download="data.csv">点击下载附件 *data.csv*</a> -->
+
+<!-- R code in line: `r emo::ji('smile')` -->
+
+<!-- R chunk code general setting: -->
+<!-- many parameters... see https://yihui.org/knitr/options/ -->
+<!-- ```{r, setup, include=FALSE} -->
+<!-- knitr::opts_chunk$set(fig.width = 8, collapse = TRUE) -->
+<!-- ``` -->
+<!-- include = F: do not show anything -->
+
+<!-- R chunk code: (shortcut:opt+cmd+I) -->
+<!-- ```{r, echo = F} -->
+<!-- emo::ji('smile') -->
+<!-- ``` -->
+<!-- eval = F: do not execute the code -->
+<!-- echo = F: do not show the code -->
+<!-- collapse = T: do not separate the code and the result -->
+<!-- results = 'hide': do not show the result -->
+<!-- results = 'asis': the result is shown as the format of markdown -->
+<!-- warning = F: do not show warning -->
+<!-- error = F: do not show error info -->
+<!-- message = F:do not show message -->
+
