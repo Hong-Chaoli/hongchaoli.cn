@@ -6,6 +6,7 @@
 # https://cosx.org/2018/01/build-blog-with-blogdown-hugo-netlify-github/
 # rstudio连接到github -》github连接到netlify进行deployment -》将自己注册的域名绑定到netlify
 # -》在个人域名的提供商网站修改nameservers为netlify提供的nameservers。
+# -》申请ssl证书 -》将网站提交到各大搜索引擎
 
 # 更改icon:
 # config.yaml中找到favicon: favicon.ico
