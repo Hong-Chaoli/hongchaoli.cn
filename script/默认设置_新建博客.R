@@ -1,5 +1,5 @@
 # 主题：yihui/hugo-lithium
-# blogdown's introduction:
+# blogdown书:
 # https://bookdown.org/yihui/blogdown/a-quick-example.html
 
 # 用 R 语言的 blogdown + hugo + netlify + github 搭建静态博客系统
@@ -7,6 +7,12 @@
 # rstudio连接到github -》github连接到netlify进行deployment -》将自己注册的域名绑定到netlify
 # -》在个人域名的提供商网站修改nameservers为netlify提供的nameservers。
 # -》申请ssl证书 -》将网站提交到各大搜索引擎
+
+# 可对照谢益辉的网站及对应代码进行学习：https://github.com/yihui/yihui.org/tree/master
+
+
+# https://www.shenxt.info/post/blogdown/
+# https://jiaxiangli.netlify.app/2017/12/17/blogdown/
 
 # 更改icon:
 # config.yaml中找到favicon: favicon.ico
@@ -21,7 +27,7 @@ serve_site()
 
 #新建博客 .Rmd文件
 blogdown::new_post()
-blogdown::new_post(title = "2023 Neuron PBN elicits corticosterone response to IL-1beta",  
+blogdown::new_post(title = "1998 Science Bruce Beutler LPS信号缺陷小鼠：Tlr4基因突变",  
                    ext = '.Rmd', 
                    subdir = "post")
 
