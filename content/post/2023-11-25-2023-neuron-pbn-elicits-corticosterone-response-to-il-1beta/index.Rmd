@@ -12,14 +12,22 @@ tags: []
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
+```{r, echo = FALSE}
+bytes <- file.size("index.Rmd")
+words <- bytes/4
+minutes <- round(words/200)
+```
+
+<font color=DarkGray face='Microsoft YaHei'>阅读时长大约 `r minutes` 分钟</font>
+
 <span style="font-size:15px;">这是对原文的翻译和解读，纠错和讨论请发邮件至 hongchl3@outlook.com。<br/>
 原文链接: [The parabrachial nucleus elicits a vigorous corticosterone feedback response to the pro-inflammatory cytokine IL-1beta](https://doi.org/10.1016/j.neuron.2023.05.009)</span>
 
 ---
 
-```{r, echo = FALSE}
-setwd("/Users/hongchaoli/R/hongchaoli.cn/content/post/2023-11-25-2023-neuron-pbn-elicits-corticosterone-response-to-il-1beta/pictures")
-```
+# ```{r, echo = FALSE}
+# setwd("/Users/hongchaoli/R/hongchaoli.cn/content/post/2023-11-25-2023-neuron-pbn-elicits-corticosterone-response-to-il-1beta/pictures")
+# ```
 
 中枢神经系统在个体受到感染时调控全身免疫反应。大脑主要通过自主神经系统和神经内分泌系统调节免疫。其中，皮质酮（CS）受下丘脑（室旁核，PVN）-垂体-肾上腺轴控制，被释放入血后，可有效抑制免疫反应。PVN接受来自其他脑区的投射，以决定CS反应的动力学和幅度。但是，哪些脑区及哪些环路能够整合感染的内感受信息，传递给PVN来调控CS反应，尚未可知。
 

@@ -12,12 +12,13 @@ tags: []
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-
 ```{r, echo = FALSE}
 bytes <- file.size("index.Rmd")
-words <- bytes/10
-minutes <- words/200
+words <- bytes/4
+minutes <- round(words/200)
 ```
+
+<font color=DarkGray face='Microsoft YaHei'>阅读时长大约 `r minutes` 分钟</font>
 
 <span style="font-size:15px;">这是对原文的翻译和解读，纠错和讨论请发邮件至 hongchl3@outlook.com。<br/>
 原文链接: [Defective LPS Signaling in C3H/HeJ and C57BL/10ScCr Mice: Mutations in Tlr4 Gene](https://doi.org/10.1126/science.282.5396.2085)</span>

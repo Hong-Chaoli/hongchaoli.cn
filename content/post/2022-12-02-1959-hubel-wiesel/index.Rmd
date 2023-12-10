@@ -11,6 +11,15 @@ tags: []
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
+
+```{r, echo = FALSE}
+bytes <- file.size("index.Rmd")
+words <- bytes/4
+minutes <- round(words/200)
+```
+
+<font color=DarkGray face='Microsoft YaHei'>阅读时长大约 `r minutes` 分钟</font>
+
 <span style="font-size:10px;">这是对原文的翻译和解读，纠错和讨论请发邮件至 hongchl3@outlook.com。<br/>
 原文链接: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1363130/pdf/jphysiol01298-0128.pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1363130/pdf/jphysiol01298-0128.pdf)</span>
 
