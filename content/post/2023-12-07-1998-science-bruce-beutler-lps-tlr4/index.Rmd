@@ -25,8 +25,6 @@ minutes <- round(words/200)
 
 ---
 
-<!-- setwd("~/R/hongchaoli.cn/content/post/2023-12-07-1998-science-bruce-beutler-lps-tlr4/pictures") -->
-
 
 ```{r, echo=FALSE, fig.cap=" ", out.width = '100%'}
 knitr::include_graphics("pictures/title.png")
