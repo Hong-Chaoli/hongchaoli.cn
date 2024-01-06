@@ -21,8 +21,8 @@ minutes <- round(words/200)
 <font color=DarkGray face='Microsoft YaHei'>阅读时长大约 `r minutes` 分钟</font>
 
 <span style="font-size:15px;">这是对原文的翻译和解读，纠错和讨论请发邮件至 hongchl3@outlook.com。<br/>
-原文链接: [Molecular analysis of the period locus in Drosophila melanogaster and identification of a transcript involved in biological rhythms](https://doi.org/10.1016/0092-8674(84)90265-4)</span>
-（若无法下载全文，请点这里下载）
+原文链接: [Molecular analysis of the period locus in Drosophila melanogaster and identification of a transcript involved in biological rhythms](https://doi.org/10.1016/0092-8674(84)90265-4)</span></br>
+（若无法下载全文，请点[这里](https://github.com/Hong-Chaoli/hongchaoli.cn/blob/main/pdf/1984%20Cell%20Jeffrey%20Hall%20Michael%20Rosbash%20molecular%20analysis%20of%20period%20locus.pdf)下载）
 
 ---
 
