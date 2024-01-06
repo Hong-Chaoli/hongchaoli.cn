@@ -1,0 +1,71 @@
+---
+title: '1984 Cell By Jeffrey Hall & Michael Rosbash: 对果蝇Locus位点进行的分子分析鉴定出与生物节律相关的转录产物'
+author: R package build
+date: '2024-01-06'
+slug: 1984-cell-by-jeffrey-hall-michael-rosbash-locus
+categories: []
+tags: []
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+```{r, echo = FALSE}
+bytes <- file.size("index.Rmd")
+words <- bytes/4
+minutes <- round(words/200)
+```
+
+<font color=DarkGray face='Microsoft YaHei'>阅读时长大约 `r minutes` 分钟</font>
+
+<span style="font-size:15px;">这是对原文的翻译和解读，纠错和讨论请发邮件至 hongchl3@outlook.com。<br/>
+原文链接: [Molecular analysis of the period locus in Drosophila melanogaster and identification of a transcript involved in biological rhythms](https://doi.org/10.1016/0092-8674(84)90265-4)</span>
+（若无法下载全文，请点这里下载）
+
+---
+
+<center>
+# 导读
+</center>
+
+```{r, echo=FALSE, fig.cap=" ", out.width = '100%'}
+knitr::include_graphics("pictures/title.png")
+```
+
+---
+
+```{r, echo=FALSE, fig.cap=" ", out.width = '50%'}
+knitr::include_graphics("pictures/fig.1.png")
+```
+
+
+```{r, echo=FALSE, fig.cap=" ", out.width = '50%'}
+knitr::include_graphics("pictures/fig.2.png")
+```
+
+
+```{r, echo=FALSE, fig.cap=" ", out.width = '50%'}
+knitr::include_graphics("pictures/fig.3.png")
+```
+
+
+```{r, echo=FALSE, fig.cap=" ", out.width = '50%'}
+knitr::include_graphics("pictures/fig.4.png")
+```
+
+
+```{r, echo=FALSE, fig.cap=" ", out.width = '50%'}
+knitr::include_graphics("pictures/tab.1.png")
+```
+
+
+```{r, echo=FALSE, fig.cap=" ", out.width = '50%'}
+knitr::include_graphics("pictures/fig.5.png")
+```
+
+
+```{r, echo=FALSE, fig.cap=" ", out.width = '50%'}
+knitr::include_graphics("pictures/fig.6.png")
+```
