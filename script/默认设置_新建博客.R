@@ -27,7 +27,7 @@ serve_site()
 
 #新建博客 .Rmd文件
 blogdown::new_post()
-blogdown::new_post(title = "1998 Science Bruce Beutler LPS信号缺陷小鼠：Tlr4基因突变",  
+blogdown::new_post(title = "1984 Cell By Jeffrey Hall & Michael Rosbash: 对果蝇Locus位点进行的分子分析鉴定出与生物节律相关的转录产物",  
                    ext = '.Rmd', 
                    subdir = "post")
 
