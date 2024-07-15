@@ -20,6 +20,7 @@
 # theme -> hugo-lithium -> static -> images -> logo.png
 
 library(blogdown)
+install.packages("blogdown")
 check_gitignore()
 check_content()
 hugo_version()
@@ -27,7 +28,7 @@ serve_site()
 
 #新建博客 .Rmd文件
 blogdown::new_post()
-blogdown::new_post(title = "1984 Cell By Jeffrey Hall & Michael Rosbash: 对果蝇Locus位点进行的分子分析鉴定出与生物节律相关的转录产物",  
+blogdown::new_post(title = "2016 Cell Metabolism 衣康酸被发现具有抗炎作用",  
                    ext = '.Rmd', 
                    subdir = "post")
 
