@@ -1,0 +1,49 @@
+---
+title: "Untitled"
+author: "Chaoli Hong"
+date: "2025-04-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+```{r, echo = FALSE}
+bytes <- file.size("index.Rmd")
+words <- bytes/4
+minutes <- round(words/200)
+```
+
+<font color=DarkGray face='Microsoft YaHei'>阅读时长大约 `r minutes` 分钟</font>
+
+<span style="font-size:15px;">这是对原文的翻译和解读，纠错和讨论请发邮件至 hongchl3@outlook.com。<br/>
+原文链接: [Itaconate Links Inhibition of Succinate Dehydrogenase with Macrophage Metabolic Remodeling and Regulation of Inflammation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5108454/)</span>
+
+---
+
+<center>
+# 导读
+</center>
+
+插入标题图片：
+
+```{r, echo=FALSE, fig.cap=" ", out.width = '100%'}
+knitr::include_graphics("pictures/title.png")
+```
+
+---
+
+插入figures：
+```{r, echo=FALSE, fig.cap="xxx", out.width = '100%'}
+knitr::include_graphics("pictures/fig.1.png")
+```
+
+
+斜体：*x*
+希腊字母：TNF-$\alpha$
+上标：^x^
+下标：~x~
+
+
+

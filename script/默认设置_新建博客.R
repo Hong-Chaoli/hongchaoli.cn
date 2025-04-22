@@ -20,7 +20,7 @@
 # theme -> hugo-lithium -> static -> images -> logo.png
 
 library(blogdown)
-install.packages("blogdown")
+# install.packages("blogdown")
 check_gitignore()
 check_content()
 hugo_version()
@@ -28,7 +28,7 @@ serve_site()
 
 #新建博客 .Rmd文件
 blogdown::new_post()
-blogdown::new_post(title = "2016 Cell Metabolism 衣康酸被发现具有抗炎作用",  
+blogdown::new_post(title = "2012年Cell上发表的铁死亡文章",  
                    ext = '.Rmd', 
                    subdir = "post")
 
@@ -40,14 +40,3 @@ blogdown::stop_server()
 
 #将.Rmd文件渲染为html等站点文件
 blogdown::build_site()
-
-
-
-
-
-
-
-
-
-
-
